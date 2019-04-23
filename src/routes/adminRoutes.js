@@ -7,9 +7,10 @@ const adminRouter = express.Router();
 const books = [
 
   {
-    title: 'Journey to Ethiopia',
-    genre: 'Drama',
-    author: 'Sam',
+    title: 'War and Peace',
+    genre: 'Hstorical Fiction',
+    author: 'Lev Nikolayevich Tolstoy',
+    bookId: 656,
     read: false
   },
   {
